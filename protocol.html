@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Protocol</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="./css/main-e0a345e157.css" />
+    <link rel="stylesheet" href="./css/second-15ab129cbf.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <aside class="sidebar">
+        <div class="sidebar__header">
+          <a href="#" class="sidebar__logo logo"><img class="logo__icon" src="img/svg/logo.svg" alt="logo pools" />
+            <span class="logo__text">Pools.ag</span></a>
+        </div>
+        <nav class="sidebar__nav nav">
+          <h2 class="nav__title">Dashboards</h2>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link nav__link--pools active">
+                <span class="nav__link-text">Pools</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link nav__link--protocols">
+                <span class="nav__link-text">Protocols</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <div class="page">
+        <div class="page__container">
+          <header class="header">
+            <div class="header__container">
+              <form class="header__search">
+                <button type="submit" class="header__search-btn">
+                  <svg class="header__search-icon">
+                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#search"></use>
+                  </svg>
+                </button>
+                <input class="header__search-input" type="text" placeholder="Search all pools" />
+              </form>
+              <div class="header__filter">
+                <button class="header__filter-btn">
+                  <svg class="header__filter-icon">
+                    <use xlink:href="./img/symbol/svg/sprite.symbol.svg#filter"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </header>
+          <main class="main">
+            <div class="protocol">
+              <div class="protocol__filters filters">
+                <div class="filters__item dropdown-item">
+                  <button class="filters__btn dropdown-btn" type="button">
+                    <span class="filters__title">Aave (Combined)</span>
+                    <svg class="filters__icon">
+                      <use xlink:href="img/symbol/svg/sprite.symbol.svg#arrow"></use>
+                    </svg>
+                  </button>
+                  <ul class="dropdown-filter">
+                    <li class="dropdown-filter__item">1</li>
+                    <li class="dropdown-filter__item">2</li>
+                    <li class="dropdown-filter__item">3</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="protocol__metrics">
+                <div class="metrics">
+                  <div class="metrics__header">
+                    <div class="metrics__protocol">
+                      <picture><source srcset="./img/aave.webp" type="image/webp"><img class="metrics__protocol-icon" src="./img/aave.png" alt="aave logo" /></picture>
+                      <span class="metrics__protocol-name">Aave(AAVE)</span>
+                    </div>
+                    <div class="metrics__actions">
+                      <button class="metrics__pin-btn">
+                        <svg class="metrics__pin-icon">
+                          <use xlink:href="img/symbol/svg/sprite.symbol.svg#pin"></use>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="metrics__tvl">
+                    <span class="metrics__tvl-label">Total Value Locked</span>
+                    <div class="metrics__tvl-bottom">
+                      <span class="metrics__tvl-value">$42,434b </span>
+                      <svg class="metrics__tvl-arrow">
+                        <use xlink:href="img/symbol/svg/sprite.symbol.svg#arrow"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="metrics__section">
+                    <div class="metrics__section-title">Key Metrics</div>
+                    <ul class="metrics__list">
+                      <li class="metrics__item item-metrics">
+                        <button type="button" class="item-metrics__header">
+                          <span class="item-metrics__label">Fees.(Annualized)</span>
+                          <svg class="item-metrics__arrow">
+                            <use xlink:href="img/symbol/svg/sprite.symbol.svg#arrow"></use>
+                          </svg>
+                          <div class="item-metrics__value">$1,168b</div>
+                        </button>
+                        <ul class="item-metrics__sublist">
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label">Fees 30d</span>
+                            <span class="item-metrics__subitem-value">$95,56m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label"> Fees 7d</span>
+                            <span class="item-metrics__subitem-value">$24,58m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label">Fees 24h</span>
+                            <span class="item-metrics__subitem-value">$3,52m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label"> Cumulative Fees</span>
+                            <span class="item-metrics__subitem-value">$1,164b</span>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="metrics__item item-metrics">
+                        <button type="button" class="item-metrics__header">
+                          <span class="item-metrics__label">Revenue (Annualized)</span>
+                          <svg class="item-metrics__arrow">
+                            <use xlink:href="img/symbol/svg/sprite.symbol.svg#arrow"></use>
+                          </svg>
+                          <div class="item-metrics__value">$161,5m</div>
+                        </button>
+                        <ul class="item-metrics__sublist">
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label">Fees 30d</span>
+                            <span class="item-metrics__subitem-value">$95,56m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label"> Fees 7d</span>
+                            <span class="item-metrics__subitem-value">$24,58m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label">Fees 24h</span>
+                            <span class="item-metrics__subitem-value">$3,52m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label"> Cumulative Fees</span>
+                            <span class="item-metrics__subitem-value">$1,164b</span>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="metrics__item item-metrics">
+                        <button type="button" class="item-metrics__header">
+                          <span class="item-metrics__label">Holders Revenue (Annualized)</span>
+                          <svg class="item-metrics__arrow">
+                            <use xlink:href="img/symbol/svg/sprite.symbol.svg#arrow"></use>
+                          </svg>
+                          <div class="item-metrics__value">$44,05m</div>
+                        </button>
+                        <ul class="item-metrics__sublist">
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label">Fees 30d</span>
+                            <span class="item-metrics__subitem-value">$95,56m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label"> Fees 7d</span>
+                            <span class="item-metrics__subitem-value">$24,58m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label">Fees 24h</span>
+                            <span class="item-metrics__subitem-value">$3,52m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label"> Cumulative Fees</span>
+                            <span class="item-metrics__subitem-value">$1,164b</span>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="metrics__item item-metrics">
+                        <button type="button" class="item-metrics__header">
+                          <span class="item-metrics__label">Incentives, (Annualized)</span>
+                          <svg class="item-metrics__arrow">
+                            <use xlink:href="img/symbol/svg/sprite.symbol.svg#arrow"></use>
+                          </svg>
+                          <div class="item-metrics__value">$59,18m</div>
+                        </button>
+                        <ul class="item-metrics__sublist">
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label">Fees 30d</span>
+                            <span class="item-metrics__subitem-value">$95,56m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label"> Fees 7d</span>
+                            <span class="item-metrics__subitem-value">$24,58m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label">Fees 24h</span>
+                            <span class="item-metrics__subitem-value">$3,52m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label"> Cumulative Fees</span>
+                            <span class="item-metrics__subitem-value">$1,164b</span>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="metrics__item item-metrics">
+                        <button type="button" class="item-metrics__header">
+                          <span class="item-metrics__label">Earnings, (Annualized)</span>
+                          <svg class="item-metrics__arrow">
+                            <use xlink:href="img/symbol/svg/sprite.symbol.svg#arrow"></use>
+                          </svg>
+                          <div class="item-metrics__value">$102,32m</div>
+                        </button>
+                        <ul class="item-metrics__sublist">
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label">Fees 30d</span>
+                            <span class="item-metrics__subitem-value">$95,56m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label"> Fees 7d</span>
+                            <span class="item-metrics__subitem-value">$24,58m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label">Fees 24h</span>
+                            <span class="item-metrics__subitem-value">$3,52m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label"> Cumulative Fees</span>
+                            <span class="item-metrics__subitem-value">$1,164b</span>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="metrics__item item-metrics">
+                        <button type="button" class="item-metrics__header">
+                          <span class="item-metrics__label">Market Cap</span>
+                          <svg class="item-metrics__arrow">
+                            <use xlink:href="img/symbol/svg/sprite.symbol.svg#arrow"></use>
+                          </svg>
+                          <div class="item-metrics__value">$4,645b</div>
+                        </button>
+                        <ul class="item-metrics__sublist">
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label">Fees 30d</span>
+                            <span class="item-metrics__subitem-value">$95,56m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label"> Fees 7d</span>
+                            <span class="item-metrics__subitem-value">$24,58m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label">Fees 24h</span>
+                            <span class="item-metrics__subitem-value">$3,52m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label"> Cumulative Fees</span>
+                            <span class="item-metrics__subitem-value">$1,164b</span>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="metrics__item item-metrics">
+                        <button type="button" class="item-metrics__header">
+                          <span class="item-metrics__label">$AAVE Price</span>
+                          <svg class="item-metrics__arrow">
+                            <use xlink:href="img/symbol/svg/sprite.symbol.svg#arrow"></use>
+                          </svg>
+                          <div class="item-metrics__value">$304,82</div>
+                        </button>
+                        <ul class="item-metrics__sublist">
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label">Fees 30d</span>
+                            <span class="item-metrics__subitem-value">$95,56m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label"> Fees 7d</span>
+                            <span class="item-metrics__subitem-value">$24,58m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label">Fees 24h</span>
+                            <span class="item-metrics__subitem-value">$3,52m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label"> Cumulative Fees</span>
+                            <span class="item-metrics__subitem-value">$1,164b</span>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="metrics__item item-metrics">
+                        <button type="button" class="item-metrics__header">
+                          <span class="item-metrics__label">Fully, Diluted. Valuation</span>
+                          <svg class="item-metrics__arrow">
+                            <use xlink:href="img/symbol/svg/sprite.symbol.svg#arrow"></use>
+                          </svg>
+                          <div class="item-metrics__value">$4,879</div>
+                        </button>
+                        <ul class="item-metrics__sublist">
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label">Fees 30d</span>
+                            <span class="item-metrics__subitem-value">$95,56m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label"> Fees 7d</span>
+                            <span class="item-metrics__subitem-value">$24,58m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label">Fees 24h</span>
+                            <span class="item-metrics__subitem-value">$3,52m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label"> Cumulative Fees</span>
+                            <span class="item-metrics__subitem-value">$1,164b</span>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="metrics__item item-metrics">
+                        <button type="button" class="item-metrics__header">
+                          <span class="item-metrics__label">$AAVE Volume 24h</span>
+                          <svg class="item-metrics__arrow">
+                            <use xlink:href="img/symbol/svg/sprite.symbol.svg#arrow"></use>
+                          </svg>
+                          <div class="item-metrics__value">$379,68m</div>
+                        </button>
+                        <ul class="item-metrics__sublist">
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label">Fees 30d</span>
+                            <span class="item-metrics__subitem-value">$95,56m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label"> Fees 7d</span>
+                            <span class="item-metrics__subitem-value">$24,58m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label">Fees 24h</span>
+                            <span class="item-metrics__subitem-value">$3,52m</span>
+                          </li>
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label"> Cumulative Fees</span>
+                            <span class="item-metrics__subitem-value">$1,164b</span>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="metrics__item item-metrics">
+                        <button type="button" class="item-metrics__header">
+                          <span class="item-metrics__label">Staked </span>
+                          <svg class="item-metrics__arrow">
+                            <use xlink:href="img/symbol/svg/sprite.symbol.svg#arrow"></use>
+                          </svg>
+                          <div class="item-metrics__value"> $817,p <span>83m (17,61% of mcapp)</span>
+                          </div>
+                        </button>
+                        <ul class="item-metrics__sublist">
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label">Fees 30d</span>
+                            <span class="item-metrics__subitem-value">$95,56m</span>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="metrics__item item-metrics">
+                        <button type="button" class="item-metrics__header">
+                          <span class="item-metrics__label">Borrowed</span>
+                          <svg class="item-metrics__arrow">
+                            <use xlink:href="img/symbol/svg/sprite.symbol.svg#arrow"></use>
+                          </svg>
+                          <div class="item-metrics__value">$38,439b</div>
+                        </button>
+                        <ul class="item-metrics__sublist">
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label">Fees 30d</span>
+                            <span class="item-metrics__subitem-value">$95,56m</span>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="metrics__item item-metrics">
+                        <button type="button" class="item-metrics__header">
+                          <span class="item-metrics__label">Treasury</span>
+                          <svg class="item-metrics__arrow">
+                            <use xlink:href="img/symbol/svg/sprite.symbol.svg#arrow"></use>
+                          </svg>
+                          <div class="item-metrics__value">$379,68m</div>
+                        </button>
+                        <ul class="item-metrics__sublist">
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label">Fees 30d</span>
+                            <span class="item-metrics__subitem-value">$95,56m</span>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="metrics__item item-metrics">
+                        <button type="button" class="item-metrics__header">
+                          <span class="item-metrics__label">Total Raised</span>
+                          <svg class="item-metrics__arrow">
+                            <use xlink:href="img/symbol/svg/sprite.symbol.svg#arrow"></use>
+                          </svg>
+                          <div class="item-metrics__value">$379,68m</div>
+                        </button>
+                        <ul class="item-metrics__sublist">
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label">Fees 30d</span>
+                            <span class="item-metrics__subitem-value">$95,56m</span>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="metrics__item item-metrics">
+                        <button type="button" class="item-metrics__header">
+                          <span class="item-metrics__label">Annual Operational Expenses</span>
+                          <svg class="item-metrics__arrow">
+                            <use xlink:href="img/symbol/svg/sprite.symbol.svg#arrow"></use>
+                          </svg>
+                          <div class="item-metrics__value">$379,68m</div>
+                        </button>
+                        <ul class="item-metrics__sublist">
+                          <li class="item-metrics__subitem">
+                            <span class="item-metrics__subitem-label">Fees 30d</span>
+                            <span class="item-metrics__subitem-value">$95,56m</span>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="chart-container">
+                  <div class="chart-controls">
+                    <div class="chart-controls__left">
+                      <div class="add-metrics">
+                        <button class="add-metrics__btn has-border" type="button">
+                          <span class="add-metrics__text">Add Metrics</span>
+                          <svg class="add-metrics__icon">
+                            <use xlink:href="img/symbol/svg/sprite.symbol.svg#add"></use>
+                          </svg>
+                        </button>
+                      </div>
+                      <ul class="metrics-tags">
+                        <li class="metrics-tags__item">
+                          <span class="metrics-tags__text">TVL</span>
+                          <button class="metrics-tags__close">
+                            <svg class="metrics-tags__close-icon">
+                              <use xlink:href="img/symbol/svg/sprite.symbol.svg#close"></use>
+                            </svg>
+                          </button>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="chart-controls__right">
+                      <div class="switch-currency has-border">
+                        <div class="switch-currency__item">
+                          <input id="usd" type="radio" name="currency" class="switch-currency__input" checked />
+                          <label for="usd" class="switch-currency__label">USD</label>
+                        </div>
+                        <div class="switch-currency__item">
+                          <input id="eth" type="radio" name="currency" class="switch-currency__input" />
+                          <label for="eth" class="switch-currency__label">ETH</label>
+                        </div>
+                      </div>
+                      <button class="chart-code has-border" type="buton">
+                        <svg class="chart-code__icon">
+                          <use xlink:href="img/symbol/svg/sprite.symbol.svg#tag"></use>
+                        </svg>
+                      </button>
+                      <button class="chart-download has-border" type="button">
+                        <svg class="chart-download__icon">
+                          <use xlink:href="/img/symbol/svg/sprite.symbol.svg#download"></use>
+                        </svg>
+                        <span class="chart-download__text">.csv</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="chart-placeholder">
+                    <picture><source srcset="./img/chart.webp" type="image/webp"><img src="./img/chart.png" alt="" /></picture>
+                  </div>
+                </div>
+                <div class="protocol-info">
+                  <h2 class="protocol-info__title">Protocol Information</h2>
+                  <p class="protocol-info__text"> Aave is an Open Source and Non-Custodial protocol to earn interest on deposits and borrow assets </p>
+                  <div class="protocol-info__links">
+                    <a href="#" class="protocol-info__link">
+                      <svg class="protocol-info__link-icon">
+                        <use xlink:href="img/symbol/svg/sprite.symbol.svg#web"></use>
+                      </svg>
+                      <span class="protocol-info__link-text">Website</span>
+                    </a>
+                    <a href="#" class="protocol-info__link">
+                      <svg class="protocol-info__link-icon">
+                        <use xlink:href="img/symbol/svg/sprite.symbol.svg#github"></use>
+                      </svg>
+                      <span class="protocol-info__link-text">aave</span>
+                    </a>
+                    <a href="#" class="protocol-info__link">
+                      <svg class="protocol-info__link-icon">
+                        <use xlink:href="img/symbol/svg/sprite.symbol.svg#github"></use>
+                      </svg>
+                      <span class="protocol-info__link-text">bgd-labs</span>
+                    </a>
+                    <a href="#" class="protocol-info__link">
+                      <svg class="protocol-info__link-icon">
+                        <use xlink:href="img/symbol/svg/sprite.symbol.svg#twitter"></use>
+                      </svg>
+                      <span class="protocol-info__link-text">Twitter</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
+          <footer class="footer">
+            <div class="footer__container">
+              <a href="#" class="footer__logo logo"><img class="logo__icon" src="img/svg/logo.svg" alt="logo pools" />
+                <span class="logo__text">Pools.ag</span></a>
+              <p class="footer__address"> Blockbooster Ltd, 167 169 Great Portland Street, London, United Kingdom, W1W 5PF </p>
+              <p class="footer__copy">© pools.ag 2025</p>
+              <div class="footer__links">
+                <a href="#" class="footer__link">Terms & Conditions</a>
+                <a href="#" class="footer__link">Privacy</a>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <link rel="stylesheet" href="./css/icons.css" />
+    <script type="text/javascript" src="./js/all-2207cbb42b.js"></script>
+  </body>
+
+</html>

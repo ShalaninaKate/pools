@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pools</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="./css/main-e0a345e157.css" />
+    <link rel="stylesheet" href="./css/second-15ab129cbf.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <aside class="sidebar">
+        <div class="sidebar__header">
+          <a href="#" class="sidebar__logo logo"><img class="logo__icon" src="img/svg/logo.svg" alt="logo pools" />
+            <span class="logo__text">Pools.ag</span></a>
+        </div>
+        <nav class="sidebar__nav nav">
+          <h2 class="nav__title">Dashboards</h2>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link nav__link--pools active">
+                <span class="nav__link-text">Pools</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link nav__link--protocols">
+                <span class="nav__link-text">Protocols</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <div class="page">
+        <div class="page__container">
+          <header class="header">
+            <div class="header__container">
+              <form class="header__search">
+                <button type="submit" class="header__search-btn">
+                  <svg class="header__search-icon">
+                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#search"></use>
+                  </svg>
+                </button>
+                <input class="header__search-input" type="text" placeholder="Search all pools" />
+              </form>
+              <div class="header__filter">
+                <button class="header__filter-btn">
+                  <svg class="header__filter-icon">
+                    <use xlink:href="./img/symbol/svg/sprite.symbol.svg#filter"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </header>
+          <main class="main">
+            <div class="pools">
+              <div class="pools__body">
+                <div class="pools__header">
+                  <div class="pools__banner">
+                    <div class="banner-earn">
+                      <div class="banner-earn__info">
+                        <img class="banner-earn__logo" src="img/svg/super-logo.svg" alt="logo-super" />
+                        <div class="banner-earn__col">
+                          <h2 class="banner-earn__title">Staking. Restaking. Farming. Pools</h2>
+                          <p class="banner-earn__text"> Get up to 48% APR passive income from your crypto </p>
+                        </div>
+                      </div>
+                      <a href="" target="_blank" class="banner-earn__link">Start Earn</a>
+                    </div>
+                  </div>
+                  <h1 class="pools__title">Liquidity Pools</h1>
+                  <div class="pools__filters filters">
+                    <div class="filters__options">
+                      <svg class="filters__star">
+                        <use xlink:href="img/symbol/svg/sprite.symbol.svg#star"></use>
+                      </svg>
+                      <div class="options">
+                        <div class="options__item">
+                          <input id="Any" type="radio" name="type" class="options__input" />
+                          <label for="Any" class="options__label">Any</label>
+                        </div>
+                        <div class="options__item">
+                          <input id="New" type="radio" name="type" class="options__input" />
+                          <label for="New" class="options__label">New</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="filters__items">
+                      <div class="filters__item dropdown-item">
+                        <button class="filters__btn dropdown-btn" type="button">
+                          <span class="filters__title">Platform</span>
+                          <svg class="filters__icon">
+                            <use xlink:href="img/symbol/svg/sprite.symbol.svg#arrow"></use>
+                          </svg>
+                        </button>
+                        <ul class="dropdown-filter">
+                          <li class="dropdown-filter__item">1</li>
+                          <li class="dropdown-filter__item">2</li>
+                          <li class="dropdown-filter__item">3</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pools__table table">
+                  <div class="table">
+                    <div class="table__body">
+                      <div class="table__row">
+                        <ul class="table__items table__items--title">
+                          <li class="table__item">Pool</li>
+                          <li class="table__item hidden-mob">Liquidity</li>
+                          <li class="table__item">Volume 24H</li>
+                          <li class="table__item hidden-mob">Fees 24H</li>
+                          <li class="table__item">APR 24H</li>
+                          <li class="table__item hidden-mob"></li>
+                        </ul>
+                      </div>
+                      <div class="table__row">
+                        <ul class="table__items">
+                          <a class="link-deposit" href="#"></a>
+                          <li class="table__item table__item--pools">
+                            <div class="pool">
+                              <svg class="table__item-star">
+                                <use xlink:href="img/symbol/svg/sprite.symbol.svg#star"></use>
+                              </svg>
+                              <div class="pool__items">
+                                <picture><source srcset="img/solana.webp" type="image/webp"><img class="pool__logo" src="img/solana.jpg" alt="" /></picture>
+                                <picture><source srcset="img/pepewif.webp" type="image/webp"><img class="pool__logo pool__logo--last" src="img/pepewif.jpg" alt="" /></picture>
+                              </div>
+                              <div class="pool__info">
+                                <div class="pool__name">
+                                  <span>SOL</span>-<span>PEPEWIF</span>
+                                </div>
+                                <div class="pool__fee">0,01%</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="table__item hidden-mob"><span>$359 950</span></li>
+                          <li class="table__item"><span>$63 971 091</span></li>
+                          <li class="table__item hidden-mob"><span>$6 397</span></li>
+                          <li class="table__item"><span>648222,69%</span></li>
+                          <li class="table__item hidden-mob">
+                            <button type="button" class="table__item-btn">Deposit</button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
+          <footer class="footer">
+            <div class="footer__container">
+              <a href="#" class="footer__logo logo"><img class="logo__icon" src="img/svg/logo.svg" alt="logo pools" />
+                <span class="logo__text">Pools.ag</span></a>
+              <p class="footer__address"> Blockbooster Ltd, 167 169 Great Portland Street, London, United Kingdom, W1W 5PF </p>
+              <p class="footer__copy">© pools.ag 2025</p>
+              <div class="footer__links">
+                <a href="#" class="footer__link">Terms & Conditions</a>
+                <a href="#" class="footer__link">Privacy</a>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <link rel="stylesheet" href="./css/icons.css" />
+    <script type="text/javascript" src="./js/all-2207cbb42b.js"></script>
+  </body>
+
+</html>
